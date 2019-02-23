@@ -1,0 +1,17 @@
+{
+  "name": "@erickmerchant/onappend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "module": "main.mjs",
+  "scripts": {
+    "pretest": "lint main.mjs",
+    "test": "exit 0"
+  },
+  "keywords": [],
+  "author": "Erick Merchant <erickmerchant@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@erickmerchant/lint": "^1.10.2"
+  }
+}
