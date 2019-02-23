@@ -1,17 +1,28 @@
 {
   "name": "@erickmerchant/onappend",
   "version": "1.0.0",
-  "description": "",
+  "description": "uses a MutationObserver to call onappend and onremove events on elements",
   "main": "main.mjs",
   "module": "main.mjs",
   "scripts": {
-    "pretest": "lint main.mjs",
-    "test": "exit 0"
+    "pretest": "lint '*.mjs'",
+    "test": "node -r esm test.mjs"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmerchant/onappend.git"
+  },
   "author": "Erick Merchant <erickmerchant@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickmerchant/onappend/issues"
+  },
+  "homepage": "https://github.com/erickmerchant/onappend#readme",
   "devDependencies": {
-    "@erickmerchant/lint": "^1.10.2"
-  }
+    "@erickmerchant/lint": "^1.10.2",
+    "esm": "^3.2.6",
+    "jsdom": "^13.2.0",
+    "tape": "^4.10.0"
+  },
+  "dependencies": {}
 }
