@@ -1,6 +1,6 @@
 {
   "name": "@erickmerchant/onappend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "uses a MutationObserver to call onappend and onremove events on elements",
   "main": "main.mjs",
   "module": "main.mjs",
