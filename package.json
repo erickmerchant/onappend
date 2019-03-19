@@ -20,7 +20,7 @@
   "homepage": "https://github.com/erickmerchant/onappend#readme",
   "devDependencies": {
     "@erickmerchant/lint": "^2.1.0",
-    "eslint": "^5.15.2",
+    "eslint": "^5.15.3",
     "esm": "^3.2.18"
   },
   "dependencies": {},
