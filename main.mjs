@@ -1,10 +1,10 @@
 /* global MutationObserver */
 
-const call = (target, event) => {
-  if (target[event]) {
-    target[event].call(target)
+const call = (currentTarget, event) => {
+  if (currentTarget[event]) {
+    currentTarget[event].call(currentTarget, {currentTarget})
 
-    target[event] = null
+    currentTarget[event] = null
   }
 }
 
