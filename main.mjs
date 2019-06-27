@@ -1,5 +1,3 @@
-/* global MutationObserver */
-
 const call = (currentTarget, event) => {
   if (currentTarget[event]) {
     currentTarget[event].call(currentTarget, {currentTarget})
